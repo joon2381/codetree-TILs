@@ -10,3 +10,4 @@ for _ in range(21):
         a = a*10 - b*c
     else:
         a = a - (b * c)
+        a *= 10
