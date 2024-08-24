@@ -2,7 +2,7 @@ a, b, c = map(int, input().split())
 
 guess = True
 
-for i in range(1, b//c):
+for i in range(2, b//c):
     if a >= c * i and b <= c * i:
         guess = False
         break
